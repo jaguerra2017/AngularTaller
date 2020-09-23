@@ -2,21 +2,18 @@
  * Global Styles
  */
 
- @import 'assets/sass/libs/settings';
-
- body {
+body {
 	font-family: $secondary-font;
 	font-size   : 16px;
 	font-weight : 300;
 	line-height : normal;
-  color: $body-color;
-  margin: auto;
+	color: $body-color;
 
 	@media screen and (max-width:990px){ font-size: 90% }
 	@media screen and (max-width:768px){ font-size: 80% }
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{ 
 	font-family: $primary-font;
 	color: $strong-color;
 	margin-top: 0;
