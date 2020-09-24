@@ -82,10 +82,11 @@
 			display: block;
 			font-family: $primary-font;
 			border-left: 4px solid transparent;
-			transition: .3s ease;
-		}
-		.current-menu-item a,.menu-item:hover a{
-			border-left: 4px solid $accent-color;
+      transition: .3s ease;
+
+      &.current-menu-item, .menu-item:hover a{
+        border-left: 4px solid $accent-color;
+      }
 		}
 	}
 }
@@ -113,13 +114,11 @@
 			text-transform: uppercase;
 			@include em(14);
 			font-weight: 700;
-			transition: .3s ease;
-		}
+      transition: .3s ease;
 
-		&.current-menu-item,&:hover{
-			a{
-				border-bottom: 3px solid $accent-color;
-			}
+      &.current-menu-item,&:hover{
+          border-bottom: 3px solid $accent-color;
+      }
 		}
 	}
 }

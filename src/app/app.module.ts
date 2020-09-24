@@ -10,6 +10,8 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
+import { ParallaxDirective } from './directives/parallax.directive';
+import { AboutComponent } from './about/about.component';
 
 var firebaseConfig = {
     apiKey: "AIzaSyAg_V_FpYDGfTNtC96qJD1_JIIZrGZ5lRs",
@@ -27,6 +29,8 @@ var firebaseConfig = {
     AppComponent,
     HomeComponent,
     NavigationComponent,
+    ParallaxDirective,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,

@@ -29,7 +29,15 @@
 /* fullwidth-block */
 .fullwidth-block{
 	padding: 30px 0 50px;
-	overflow: hidden;
+  overflow: hidden;
+
+  &.dark-bg {
+    background-color: $secondary-light-color;
+  }
+
+  &.light-bg {
+    background-color: white;
+  }
 }
 
  /* section title */
